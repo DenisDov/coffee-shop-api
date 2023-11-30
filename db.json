@@ -1,11 +1,15 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "menu": [
+    {
+      "category": "Capuccino",
+      "items": [{ "title": "Cap", "desc": "Desc1", "price": "3.49" }]
+    },
+    {
+      "category": "Americano",
+      "items": [{ "title": "Am", "desc": "Desc2", "price": "2.40" }]
+    }
+  ]
 }
