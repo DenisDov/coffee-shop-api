@@ -1,12 +1,22 @@
 {
-  "user": {
-    "id": "1",
-    "email": "johndoe@mail.com",
-    "image": {
-      "source": "https://i.pravatar.cc/150?img=11",
-      "thumbhash": "0RcGDwSGeWT6c1qNesenSnxqyACILmAI"
+  "users": [
+    {
+      "id": "1",
+      "email": "johndoe@mail.com",
+      "image": {
+        "source": "https://i.pravatar.cc/150?img=11",
+        "thumbhash": "0RcGDwSGeWT6c1qNesenSnxqyACILmAI"
+      }
+    },
+    {
+      "id": "2",
+      "email": "bill@mail.com",
+      "image": {
+        "source": "https://i.pravatar.cc/150?img=11",
+        "thumbhash": "0RcGDwSGeWT6c1qNesenSnxqyACILmAI"
+      }
     }
-  },
+  ],
   "menu": {
     "categories": [
       { "id": "1", "name": "Appetizers" },
