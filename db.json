@@ -7,14 +7,27 @@
       "thumbhash": "0RcGDwSGeWT6c1qNesenSnxqyACILmAI"
     }
   },
-  "menu": [
-    {
-      "category": "Capuccino",
-      "items": [{ "title": "Cap", "desc": "Desc1", "price": "3.49" }]
-    },
-    {
-      "category": "Americano",
-      "items": [{ "title": "Am", "desc": "Desc2", "price": "2.40" }]
-    }
-  ]
+  "menu": {
+    "categories": [
+      { "id": "1", "name": "Appetizers" },
+      { "id": "2", "name": "Main Course" },
+      { "id": "3", "name": "Desserts" }
+    ],
+    "items": [
+      {
+        "category_id": "1",
+        "products": [
+          { "id": 101, "name": "Item 1", "price": 10, "image_url": "..." },
+          { "id": 102, "name": "Item 2", "price": 12, "image_url": "..." }
+        ]
+      },
+      {
+        "category_id": "2",
+        "products": [
+          { "id": 103, "name": "Item 1", "price": 10, "image_url": "..." },
+          { "id": 104, "name": "Item 2", "price": 12, "image_url": "..." }
+        ]
+      }
+    ]
+  }
 }
