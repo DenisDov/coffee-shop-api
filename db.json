@@ -1,6 +1,11 @@
 {
-  "profile": {
-    "name": "typicode"
+  "user": {
+    "id": "1",
+    "email": "johndoe@mail.com",
+    "image": {
+      "source": "https://i.pravatar.cc/150?img=11",
+      "thumbhash": "0RcGDwSGeWT6c1qNesenSnxqyACILmAI"
+    }
   },
   "menu": [
     {
