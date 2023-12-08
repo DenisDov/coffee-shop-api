@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "email": "johndoe@mail.com",
       "image": {
         "source": "https://i.pravatar.cc/150?img=11",
@@ -9,7 +9,7 @@
       }
     },
     {
-      "id": "2",
+      "id": 2,
       "email": "bill@mail.com",
       "image": {
         "source": "https://i.pravatar.cc/150?img=11",
@@ -18,9 +18,9 @@
     }
   ],
   "categories": [
-    { "id": "1", "name": "Appetizers" },
-    { "id": "2", "name": "Main Course" },
-    { "id": "3", "name": "Desserts" }
+    { "id": 1, "name": "Appetizers" },
+    { "id": 2, "name": "Main Course" },
+    { "id": 3, "name": "Desserts" }
   ],
   "items": [
     {
